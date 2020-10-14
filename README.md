@@ -11,9 +11,13 @@ Describe CPU
 * e.尝试把本次实验的多个类放置在不同的包中，体会修饰符private的用法;
 
 ## 3.实验设计
-	package computer_lk1;
 
+1.设置cpu类，给cpu对象定义speed、name方法，并且将cpu类放在computer_lk1包中。
+
+	package computer_lk1;
 	public class cpu {
 	public int speed;
 
 	public String name;
+	
+2.
