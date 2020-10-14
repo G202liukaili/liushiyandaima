@@ -27,12 +27,32 @@ Describe CPU
 	public class test {
 	public static void main(String[] args){
 
-3.实例化各类
+3.实例化各类。
 	 
 	cpu cpu = new cpu();
         HardDisk hd = new HardDisk();
 	pc pc=new pc();
 	
-4.调用各方法
+4.调用各方法，设置特定的值。
+
+	cpu.setName("i7");
+
+        cpu.setSpeed(2200);
+
+        hd.setAmount(200);
+
+        hd.setSpeed(5400, null);
+
+        pc pc = new pc();
+
+        pc.setCpu(cpu);
+
+        pc.setHardDisk(hd);
+
+        pc.show();
+	
+## 4.实验结果。
+	
+
 	
 	
