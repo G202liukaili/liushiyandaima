@@ -27,5 +27,12 @@ Describe CPU
 	public class test {
 	public static void main(String[] args){
 
-## 4.重要代码
+3.实例化各类
+	 
+	cpu cpu = new cpu();
+        HardDisk hd = new HardDisk();
+	pc pc=new pc();
+	
+4.调用各方法
+	
 	
