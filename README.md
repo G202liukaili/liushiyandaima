@@ -20,4 +20,5 @@ Describe CPU
 
 	public String name;
 	
-2.
+2.其他类（pc、HardDisk、Test）放置在另一个包computer_lkl中。
+3.
