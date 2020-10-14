@@ -8,11 +8,12 @@ Describe CPU
 * b.类中定义不少于两个构造方法；
 * c.每个类定义不少于两个属性，切属性的类型应该多样化；
 * d.尝试定义属性的修饰符多样化，类中定义方法操作属性，避免直接通过“类对象.属性”的形式访问属性值；且定义方法内有合理的逻辑判断；
-* e.尝试把本次实验的多个类放置在不同的包中，体会修饰符private的用法；
+* e.尝试把本次实验的多个类放置在不同的包中，体会修饰符private的用法;
 
 ## 3.实验设计
+	package computer_lk1;
 
-    package computer_lk1;
-
-public class cpu {
+	public class cpu {
 	public int speed;
+
+	public String name;
