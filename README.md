@@ -20,5 +20,12 @@ Describe CPU
 
 	public String name;
 	
-2.其他类（pc、HardDisk、Test）放置在另一个包computer_lkl中。
-3.
+2.其他类（pc、HardDisk、Test）放置在另一个包computer_lkl中。Test是主类涉及调用cpu类，所以需导入cpu类所在的包。<br/>	
+		
+	package computer_lkl;
+	import computer_lk1.cpu;
+	public class test {
+	public static void main(String[] args){
+
+## 4.重要代码
+	
