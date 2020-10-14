@@ -11,3 +11,8 @@ Describe CPU
 * e.尝试把本次实验的多个类放置在不同的包中，体会修饰符private的用法；
 
 ## 3.实验设计
+
+    package computer_lk1;
+
+public class cpu {
+	public int speed;
